@@ -1,5 +1,5 @@
 {
-    "name": "@webpixels/starter-kit",
+    "name": "bootstrap-starter-kit",
     "version": "1.0.0",
     "private": true,
     "description": "Demo project for building a Bootstrap powered site via npm using Webpixels Components.",
@@ -7,12 +7,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/webpixels/starter-kit.git"
+        "url": "git+https://github.com/webpixels/bootstrap-starter-kit.git"
     },
     "bugs": {
-        "url": "https://github.com/webpixels/starter-kit/issues"
+        "url": "https://github.com/webpixels/bootstrap-starter-kit/issues"
     },
-    "homepage": "https://github.com/webpixels/starter-kit#readme",
+    "homepage": "https://github.com/webpixels/bootstrap-starter-kit#readme",
     "scripts": {
         "build": "npm run css",
         "css-compile": "sass --load-path=node_modules --style=compressed --source-map --embed-sources --quiet --no-error-css resources/scss:assets/css/",
