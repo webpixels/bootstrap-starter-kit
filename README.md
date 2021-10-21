@@ -24,8 +24,8 @@ Be sure to have [Node.js](https://nodejs.org/) installed before proceeding.
 
 ```shell
 # Clone the repo
-git clone https://github.com/webpixels/starter-kit
-cd starter-kit
+git clone https://github.com/webpixels/bootstrap-starter-kit.git
+cd bootstrap-starter-kit
 
 # Install dependencies
 npm i
