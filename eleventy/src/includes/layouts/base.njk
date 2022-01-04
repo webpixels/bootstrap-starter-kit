@@ -1,0 +1,32 @@
+<html lang="{{ site.lang}}">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+        <title>{{ title }} | {{ site.name }}</title>
+
+        <!-- Bootstrap Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="{{ '/css/main.css' | url }}">
+    </head>
+    <body>
+        <div id="app">
+
+            <!-- Header -->
+            {% include "partials/header.njk" %}
+
+            <!-- Main container -->
+            <div id="main-container" role="document">
+                <main role="main">
+                    {{ content | safe }}
+                </main>
+            </div>
+
+            <!-- Footer -->
+            {% include "partials/footer.njk" %}
+        </div>
+
+        <script src="{{ '/js/main.js' | url }}"></script>
+    </body>
+</html>

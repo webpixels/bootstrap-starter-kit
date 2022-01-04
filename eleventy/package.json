@@ -1,0 +1,46 @@
+{
+    "name": "bootstrap-eleventy-starter-kit",
+    "version": "1.0.0",
+    "description": "A starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.",
+    "scripts": {
+        "start": "run-p serve:eleventy watch:parcel",
+        "serve:eleventy": "cross-env ELEVENTY_ENV=local eleventy --serve",
+        "watch:parcel": "run-p watch:css watch:js watch:images",
+        "watch:css": "parcel watch ./src/scss/main.scss --dist-dir ./dist/css",
+        "watch:js": "parcel watch ./src/js/main.js --dist-dir ./dist/js",
+        "watch:images": "parcel watch ./src/img/*",
+        "build": "run-s clean build:parcel build:eleventy",
+        "build:eleventy": "cross-env ELEVENTY_ENV=production eleventy",
+        "build:parcel": "run-p build:css build:js build:images",
+        "build:css": "parcel build ./src/scss/main.scss --dist-dir ./dist/css",
+        "build:js": "parcel build ./src/js/main.js --dist-dir ./dist/js",
+        "build:images": "parcel build src/img/*",
+        "clean": "rm -rf dist"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/webpixels/bootstrap-starter-kit.git"
+    },
+    "author": {
+        "name": "Alexis Enache",
+        "email": "alexis@webpixels.io",
+        "url": "https://twitter.com/alexisenache"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "@11ty/eleventy": "^0.12.1",
+        "@parcel/transformer-sass": "^2.0.1",
+        "autoprefixer": "^10.4.1",
+        "cross-env": "^7.0.3",
+        "html-minifier": "^4.0.0",
+        "npm-run-all": "^4.1.5",
+        "nunjucks": "^3.2.3",
+        "parcel": "^2.0.1",
+        "postcss": "^8.4.5"
+    },
+    "dependencies": {
+        "@popperjs/core": "^2.11.0",
+        "@webpixels/css": "^1.1.9",
+        "bootstrap": "^5.1.3"
+    }
+}

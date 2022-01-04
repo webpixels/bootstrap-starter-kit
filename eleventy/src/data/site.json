@@ -1,0 +1,13 @@
+{
+    "name": "Bootstrap Eleventy Starter Kit",
+    "description": "A mildly opinionated Eleventy starter",
+    "url": "",
+    "lang": "en",
+    "githubUrl": "https://github.com/mattdecamp/eleventonia",
+    "authorName": "Matt DeCamp",
+    "authorHandle": "@mpdecamp",
+    "authorEmail": "matt@happybear.dev",
+    "yearCreated": 2021,
+    "copyright": "2021 to present",
+    "socialImage": "/"
+}
