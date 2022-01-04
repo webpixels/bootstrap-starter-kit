@@ -1,32 +1,48 @@
 {
-    "name": "bootstrap-eleventy-starter-kit",
-    "version": "1.0.0",
+    "name": "bootstrap-starter-kit",
     "description": "A starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.",
+    "version": "1.1",
+    "author": "Webpixels",
+    "license": "MIT",
     "scripts": {
         "start": "run-p serve:eleventy watch:parcel",
         "serve:eleventy": "cross-env ELEVENTY_ENV=local eleventy --serve",
         "watch:parcel": "run-p watch:css watch:js watch:images",
-        "watch:css": "parcel watch ./src/scss/main.scss --dist-dir ./dist/css",
-        "watch:js": "parcel watch ./src/js/main.js --dist-dir ./dist/js",
+        "watch:css": "parcel watch ./src/scss/main.scss --dist-dir ./dist/assets/css",
+        "watch:js": "parcel watch ./src/js/main.js --dist-dir ./dist/assets/js",
         "watch:images": "parcel watch ./src/img/*",
         "build": "run-s clean build:parcel build:eleventy",
         "build:eleventy": "cross-env ELEVENTY_ENV=production eleventy",
         "build:parcel": "run-p build:css build:js build:images",
-        "build:css": "parcel build ./src/scss/main.scss --dist-dir ./dist/css",
-        "build:js": "parcel build ./src/js/main.js --dist-dir ./dist/js",
-        "build:images": "parcel build src/img/*",
+        "build:css": "parcel build ./src/scss/main.scss --dist-dir ./dist/assets/css",
+        "build:js": "parcel build ./src/js/main.js --dist-dir ./dist/assets/js",
+        "build:images": "parcel build src/assets/img/*",
         "clean": "rm -rf dist"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/webpixels/bootstrap-starter-kit.git"
+        "url": "git+https://github.com/webpixels/bootstrap-starter-kit.git"
     },
-    "author": {
-        "name": "Alexis Enache",
-        "email": "alexis@webpixels.io",
-        "url": "https://twitter.com/alexisenache"
+    "bugs": {
+        "url": "https://github.com/webpixels/bootstrap-starter-kit/issues"
     },
-    "license": "MIT",
+    "homepage": "https://github.com/webpixels/bootstrap-starter-kit#readme",
+    "keywords": [
+        "webpixels",
+        "eleventy",
+        "11ty",
+        "bootstrap",
+        "css",
+        "sass",
+        "js",
+        "mobile-first",
+        "responsive",
+        "front-end",
+        "web",
+        "utilities",
+        "starter",
+        "template"
+    ],
     "devDependencies": {
         "@11ty/eleventy": "^0.12.1",
         "@parcel/transformer-sass": "^2.0.1",
