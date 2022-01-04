@@ -3,14 +3,10 @@
     "description": "Minimal starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.",
     "url": "",
     "lang": "en",
-    "github": {
-        "url": "https://github.com/webpixels/bootstrap-starter-kit"
-    },
-    "author": {
-        "name": "Your Name",
-        "handle": "@twitterhandle",
-        "email": "email@example.com"
-    },
-    "date": 2021,
+    "githubUrl": "https://github.com/webpixels/bootstrap-starter-kit",
+    "authorName": "Your Name",
+    "authorHandle": "@twitterhandle",
+    "authorEmail": "email@example.com",
+    "date": 2022,
     "copyright": "2022"
 }
