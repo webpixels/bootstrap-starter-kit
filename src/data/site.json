@@ -1,13 +1,16 @@
 {
-    "name": "Bootstrap Eleventy Starter Kit",
-    "description": "A mildly opinionated Eleventy starter",
+    "name": "Bootstrap Starter Kit",
+    "description": "Minimal starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.",
     "url": "",
     "lang": "en",
-    "githubUrl": "https://github.com/mattdecamp/eleventonia",
-    "authorName": "Matt DeCamp",
-    "authorHandle": "@mpdecamp",
-    "authorEmail": "matt@happybear.dev",
-    "yearCreated": 2021,
-    "copyright": "2021 to present",
-    "socialImage": "/"
+    "github": {
+        "url": "https://github.com/webpixels/bootstrap-starter-kit"
+    },
+    "author": {
+        "name": "Your Name",
+        "handle": "@twitterhandle",
+        "email": "email@example.com"
+    },
+    "date": 2021,
+    "copyright": "2022"
 }
