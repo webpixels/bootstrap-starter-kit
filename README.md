@@ -7,7 +7,7 @@ A starter template for websites using Bootstrap 5 and Webpixels CSS next to the 
 
 ## Features
 
-* Uses Eleventy static site generator building the layouts and pages
+* Includes Eleventy static site generator for building the layouts and pages
 * Includes Bootstrap (currently using v5) source files via npm
 * Includes Webpixels CSS as our design system based on Bootstrap 5
 * Includes npm scripts for compiling and autoprefixing Sass, compiling JS, watching for changes, and starting a basic local server
