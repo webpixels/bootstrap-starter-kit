@@ -2,7 +2,11 @@
 
 A starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.
 
-<a href="https://vercel.com/new/clone?repository-url=https://github.com/webpixels/bootstrap-starter-kit/tree/main/eleventy&amp;template=eleventy" rel="nofollow"><img src="https://camo.githubusercontent.com/5e471e99e8e022cf454693e38ec843036ec6301e27ee1e1fa10325b1cb720584/68747470733a2f2f76657263656c2e636f6d2f627574746f6e" alt="Deploy with Vercel" data-canonical-src="https://vercel.com/button" style="max-width: 100%;"></a>
+<a href="https://vercel.com/new/clone?repository-url=https://github.com/webpixels/bootstrap-starter-kit/tree/main" rel="nofollow"><img src="https://camo.githubusercontent.com/5e471e99e8e022cf454693e38ec843036ec6301e27ee1e1fa10325b1cb720584/68747470733a2f2f76657263656c2e636f6d2f627574746f6e" alt="Deploy with Vercel" data-canonical-src="https://vercel.com/button" style="max-width: 100%;"></a>
+
+
+<p><a href="https://webpixels.io/start" target="_blank"><img src="https://webpixels.s3.eu-central-1.amazonaws.com/public/github/products/bootstrap-starter-kit.png" ></a></p>
+
 
 
 ## Features
