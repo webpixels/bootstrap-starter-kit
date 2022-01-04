@@ -44,4 +44,6 @@ For additional eleventy commands, visit the [Eleventy command line usage page](h
 * [Zach Leatherman](https://11ty.dev)
 * [Mark Otto and the Team](https://github.com/twbs/bootstrap)
 
-Made with ❤ by [Webpixels](https://github.com/webpixels)
+## Copyright
+
+&copy; [Webpixels](https://github.com/webpixels) 2022 and licensed MIT.
