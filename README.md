@@ -1,8 +1,11 @@
 # Bootstrap Starter Kit
 
-A starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.
+Minimal starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.
 
-<p><a href="https://webpixels.io/start" target="_blank"><img src="https://webpixels.s3.eu-central-1.amazonaws.com/public/github/products/bootstrap-starter-kit.png" ></a></p>
+[<img src="https://www.netlify.com/img/deploy/button.svg" />](https://app.netlify.com/start/deploy?repository=https://github.com/stefanfrede/11st-starter-kit)
+
+
+<p><a href="https://bootstrap-starter-kit.webpixels.work/" target="_blank"><img src="https://webpixels.s3.eu-central-1.amazonaws.com/public/github/products/bootstrap-starter-kit.png" ></a></p>
 
 ## Features
 
@@ -13,6 +16,16 @@ A starter template for websites using Bootstrap 5 and Webpixels CSS next to the 
 * Example stylesheet (scss/main.scss)
 * Example JavaScript file (js/main.js) showing how to import all Bootstrap
 * HTML, CSS, and JS minification
+
+## Requirements
+
+* [**Bootstrap 5**](https://getbootstrap.com/docs)
+* [**Webpixels CSS**](https://webpixels.io/docs/css/)
+* [**Eleventy**](https://www.11ty.dev/docs/)
+* [**Nunjucks**](https://mozilla.github.io/nunjucks/templating.html)
+* [**Parcel**](https://parceljs.org/docs/)
+* **Autoprefixer**
+* **Post CSS**
 
 ## Getting Started
 
@@ -36,13 +49,25 @@ To build for production:
 npm run build
 ```
 
-For additional eleventy commands, visit the [Eleventy command line usage page](https://www.11ty.dev/docs/usage/).
+There is also a tutorial available on our website that explains the most important steps for the setup process. Read more about thow to [build JAMstack-ready sites with Bootstrap and 11ty (Eleventy)](https://webpixels.io/blog/how-to-get-started-with-bootstrap-and-eleventy).
+
+## Building modern interfaces
+
+Explore, copy, use and mix hundreds of carefully crafted components made just for Bootstrap. [Explore components](https://webpixels.io/components)
+
+## Community
+
+Get updates on the development of our CSS tool and chat with the project maintainers and community members.
+
+- Follow [@webpxs](https://twitter.com/intent/user?screen_name=webpxs) on Twitter
+- Read and subscribe to [The Official Webpixels Blog](https://webpixels.io/blog)
+- Join [Github Discussions](https://github.com/webpixels/css/discussions)
 
 ## Thank you
 
 * [Zach Leatherman](https://11ty.dev)
 * [Mark Otto and the Team](https://github.com/twbs/bootstrap)
 
-## Copyright
+## License
 
-&copy; [Webpixels](https://github.com/webpixels) 2022 and licensed MIT.
+Webpixels CSS is open-sourced software licensed under the [MIT license](https://github.com/webpixels/css/blob/master/LICENSE).
