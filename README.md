@@ -2,7 +2,7 @@
 
 Minimal starter template for websites using Bootstrap 5 and Webpixels CSS next to the Eleventy static site generator.
 
-[<img src="https://www.netlify.com/img/deploy/button.svg" />](https://app.netlify.com/start/deploy?repository=https://github.com/stefanfrede/11st-starter-kit)
+[<img src="https://www.netlify.com/img/deploy/button.svg" />](https://app.netlify.com/start/deploy?repository=https://github.com/webpixels/bootstrap-starter-kit)
 
 
 <p><a href="https://bootstrap-starter-kit.webpixels.work/" target="_blank"><img src="https://webpixels.s3.eu-central-1.amazonaws.com/public/github/products/bootstrap-starter-kit.png" ></a></p>
