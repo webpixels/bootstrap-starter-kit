@@ -67,6 +67,6 @@ Get updates on the development of our CSS tool and chat with the project maintai
 * [Zach Leatherman](https://11ty.dev)
 * [Mark Otto and the Team](https://github.com/twbs/bootstrap)
 
-## License
+## Copyright
 
-Webpixels CSS is open-sourced software licensed under the [MIT license](https://github.com/webpixels/css/blob/master/LICENSE).
+Made with ❤️ by [Webpixels](https://webpixels.io). Open-sourced software licensed under the MIT license.
